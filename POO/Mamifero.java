@@ -48,6 +48,9 @@ public class Mamifero{
         Cachorro.Latir();
         Cachorro.Andar(PitBull.nome, PitBull.patas);
         //sub classe consegue usar o metodo que criou e o da classe que descendeu
+
+        Cachorro ViraLata = new Cachorro("Caramelo",4);
+        Cachorro.Andar(ViraLata.nome, ViraLata.patas);
     }
 }
 
