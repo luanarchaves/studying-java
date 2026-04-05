@@ -18,17 +18,17 @@ public class Jupiter extends Planeta implements Rotacao, Translacao, SuperficeGa
 
     @Override
     public void MovimentoRotacao(){
-     System.out.println("Marte realiza rotação em torno de seu próprio eixo, demorando 24 horas e 37 minutos");
+     System.out.println("Marte realiza rotação em torno de seu próprio eixo em 9 horas e 56 minutos");
     };
 
     @Override
     public void MovimentoTranslacao(){
-        System.out.println("Marte realiza translação em torno do Sol, demorando 687 dias terrestres");
+        System.out.println("Marte realiza translação em torno do Sol, demorando 4.333 dias terrestres");
     };
     
     @Override
     final public void ContemGas(){
-        System.out.println("Jupiter é composto por gases como: ");
+        System.out.println("Jupiter é um planeta gasoso composto por: ");
         for(String palavra : principaisElementos){
             System.out.println(palavra);
         } ;  
