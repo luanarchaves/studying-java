@@ -20,7 +20,7 @@ class SateliteArtificial extends Satelite{
     }
 
     @Override
-    void Orbitar(){
+    public void Orbitar(){
         System.out.println("Satelites Artificiais orbitam planetas ou navegam pelo espaço");
     }
 

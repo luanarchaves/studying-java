@@ -14,7 +14,7 @@ abstract class Estrela {
 
     abstract void setCor();
 
-    final protected void FusaoNuclear(){
+    public void FusaoNuclear(){
         System.out.println("Estrelas realizam a fusão nuclear, elas queimam seus proprios elementos, criando energia, que emite luz");
     }
 

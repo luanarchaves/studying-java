@@ -15,7 +15,7 @@ public class Sol extends Estrela implements SuperficeGasosa{
     }
         
     @Override
-    void setCor(){
+    public void setCor(){
         System.out.println("A cor do Sol é laranja");
     }
 

@@ -2,9 +2,9 @@ package com.example.model.Satelite;
 import com.example.interfaces.Rotacao; 
 import com.example.interfaces.Translacao;
 
-class Lua extends SateliteNatural implements Rotacao, Translacao{
+public class Lua extends SateliteNatural implements Rotacao, Translacao{
 
-    private Lua(){
+    public Lua(){
         super(
             "73 quintilhões de toneladas"
         );

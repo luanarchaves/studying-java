@@ -10,7 +10,7 @@ class SateliteNatural extends Satelite{
 
 
     @Override
-    void Orbitar(){
+    public void Orbitar(){
         System.out.println("Orbitando planeta");
     }
 }
