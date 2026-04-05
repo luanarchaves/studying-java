@@ -1,4 +1,4 @@
-package com.example.model;
+package com.example.service;
 
 import com.example.model.Estrela.Sol;
 import com.example.model.Planeta.Terra;

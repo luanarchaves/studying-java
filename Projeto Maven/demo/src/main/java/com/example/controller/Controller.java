@@ -1,6 +1,6 @@
 package com.example.controller;
 
-import com.example.model.Services;
+import com.example.service.Services;
 
 public class Controller {
     
